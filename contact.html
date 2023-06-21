@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Primer Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="navegacion" role="navigation">
+        <a class="logo" href="index.html">Mi Página Web</a>
+        <ul class="navegacion-opciones">
+          <li class="navegacion-opcion">
+            <a href="index.html">Inicio</a>
+          </li>
+          <li class="navegacion-opcion">
+            <a href="services.html">Servicios</a>
+          </li>
+          <li class="navegacion-opcion">
+            <a href="about.html">Acerca De...</a>
+          </li>
+          <li class="navegacion-opcion">
+            <a href="contact.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <h1>Contacto</h1>
+      <p>¡Contáctanos para cualquier consulta o solicitud de información!</p>
+
+      <div class="formulario">
+        <form id="myForm">
+          <label for="email">Correo electrónico:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="email@dominio.com"
+            required
+          />
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+      <!-- Agrega aquí los campos del formulario -->
+    </div>
+    <script src="script/script.js"></script>
+  </body>
+</html>
