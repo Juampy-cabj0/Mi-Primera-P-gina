@@ -50,6 +50,7 @@
   padding: 20px;
 }
 .contenedor-logo {
+  text-align: center;
   margin-bottom: 15px;
 }
 
@@ -73,6 +74,7 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .navegacion-opciones {
+  text-align: center;
   list-style: none;
   line-height: 1.5;
 }
@@ -110,7 +112,20 @@
 
 /** Footer **/
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 200px;
   padding-bottom: 0;
   margin-top: 40px;
+}
+
+.nav-footer {
+  flex-direction: column;
+  gap: 20px;
+}
+
+/** About **/
+.greeting {
+  text-align: center;
 }

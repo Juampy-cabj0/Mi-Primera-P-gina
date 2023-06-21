@@ -10,31 +10,38 @@
   <body>
     <header class="header">
       <nav class="navegacion" role="navigation">
-        <a class="logo" href="index.html">Mi Página Web</a>
-        <ul class="navegacion-opciones">
-          <li class="navegacion-opcion">
-            <a href="index.html">Inicio</a>
-          </li>
-          <li class="navegacion-opcion">
-            <a href="services.html">Servicios</a>
-          </li>
-          <li class="navegacion-opcion">
-            <a href="about.html">Acerca De...</a>
-          </li>
-          <li class="navegacion-opcion">
-            <a href="contact.html">Contacto</a>
-          </li>
-        </ul>
+        <div class="contenedor-logo">
+          <a class="logo" href="index.html">Mi Página Web</a>
+        </div>
+
+        <div class="contenedor-navegacion">
+          <ul class="navegacion-opciones">
+            <li class="navegacion-opcion">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="services.html">Servicios</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="about.html">Acerca De...</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
-    <div class="container">
-      <h1>Acerca de</h1>
-      <p>
-        ¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre
-        nuestra empresa y los servicios que ofrecemos.
-      </p>
-    </div>
+    <main>
+      <div class="container greeting">
+        <h1>Acerca de</h1>
+        <p>
+          ¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre
+          nuestra empresa y los servicios que ofrecemos.
+        </p>
+      </div>
+    </main>
 
     <div class="imagenes">
       <img class="imagen" src="img/tipos-de-archivos-de-imagen.png" alt="" />
@@ -42,5 +49,30 @@
       <img class="imagen" src="img/descarga.jpeg" alt="" />
     </div>
     <script src="script/script.js"></script>
+
+    <footer class="footer">
+      <nav class="navegacion nav-footer" role="navigation">
+        <div class="contenedor-logo">
+          <a class="logo" href="index.html">Mi Página Web</a>
+        </div>
+
+        <div class="contenedor-navegacion">
+          <ul class="navegacion-opciones">
+            <li class="navegacion-opcion">
+              <a href="index.html">Inicio</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="services.html">Servicios</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="about.html">Acerca De...</a>
+            </li>
+            <li class="navegacion-opcion">
+              <a href="contact.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>
